@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- style.css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>PORTFOLIO</title>
+</head>
+<body>
+    <!-- Header design -->
+    <heaer class="header">
+        <a href="" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" id="Home" class="active">Home</a>
+            <a href="#about" id="Home">About</a>
+            <a href="#services" id="Home">Services</a>
+            <a href="#portfolio" id="Home">Portfolio</a>
+            <a href="#contact" id="Home">Contact</a> 
+        </nav>
+
+        <div class="bx bx-moon" id="darkmode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- <i class='bx bx-sun' style='color:#ffffff' ></i> -->
+    </heaer> 
+ 
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>Hello, I am </h2>
+            <h1>ANTHONY AJUBA</h1>
+
+            <p>a dynamic Full-Stack Web Developer weaving digital magic with code. My passion for innovation fuels my commitment to crafting immersive web experiences that captivate and convert. Explore my portfolio and let's embark on a journey to transform your digital vision into reality!</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/ajubaokwuchukwuanthony2000/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/AjubaAnthony"><i class='bx bxl-twitter'></i></a> 
+                <a href="https://www.instagram.com/white_currency__/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://web.facebook.com/ajuba.okwuchukwu"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/nevermind-1"><i class='bx bxl-github'></i></a>
+
+            </div>
+            <a href="#" class="btn">Download CV <i class='bx bxs-cloud-download'></i> </a>
+        </div>
+
+        <div class="professional-container">
+            <div class="professional-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Wed Developer.</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-buildings'></i>
+                    <h3>Civineer.</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bxs-home'></i>
+                    <h3>Realtor.</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxs-bank'></i>
+                    <h3>Entrepreneur.</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="images/dev_6.png" alt="home">
+        </div>
+    </section>
+
+    <!-- about session design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home_img.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Engineering <span>+</span> Programming <span>=</span> Real-world Impact.</h3>
+            <p>As a Civil Engineering student at the University of Nigeria, Nsukka, I'm not your typical coder. I'm a bridge between the world of structural precision and the realm of programming artistry. My mission? To fuse my engineering acumen with my coding prowess and architectural vision. I'm driven to engineer innovative solutions that tackle society's most pressing challenges. From the blueprint to the codebase, I'm here to build a better tomorrow, one line of code at a time. Let's embark on this transformative journey together.</p>
+            <a href="#">Read More </a>
+        </div>
+    </section>
+
+    <!-- services section design  -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Unlock the digital realm with our Web Development mastery. <span id="dots">...<span id="more"></span>We craft web solutions that transcend conventional boundaries, transforming your ideas into captivating online experiences. Our coding prowess powers your vision, ensuring responsive, user-centric designs that captivate and convert. Dive into a world where innovation meets technology, where lines of code are the brushes painting your digital masterpiece!</span></span></p>
+                <button onclick="myFunction()" id="myBtn" class="btn">Read Less</button>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-buildings'></i>
+                <h3>Engineering Services</h3>
+                <p>Engineering excellence finds its true essence in our Engineering Services. We provide you with blueprints for innovation, driving transformative projects from concept to realization.<span id="dots">...<span id="more"></span> Our technical brilliance is the key to your groundbreaking solutions, and our services encompass a spectrum of engineering domains. Step into a world where precision reigns, and where ideas evolve into tangible, real-world solutions. It's time to unlock the power of engineering and innovation. </span></span></p>
+                <button onclick="myFunction()" id="myBtn" class="btn">Read Less</button>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-palette'></i>
+                <h3>Architectural Services</h3>
+                <p>Architectural brilliance meets visionary solutions in our Architectural Services. We shape spaces with artistic precision, turning dreams into structural wonders. Our expertise goes beyond just designs; <span id="dots">...<span id="more"></span> we create the foundations for your aspirations, ensuring every detail aligns with your vision. Explore a realm where aesthetics harmonize with functionality, and where we bridge the gap between imagination and construction. Let us sculpt your architectural dreams into reality.</span></span></p>
+                <button onclick="myFunction()" id="myBtn" class="btn">Read Less</button>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-business'></i>
+                <h3>Real Estate</h3>
+                <p>Discover the future of real estate with our forward-thinking Real Estate Services. We navigate the property landscape with digital finesse, offering expert insights,<span id="dots">...<span id="more"></span> investment strategies, and tailored solutions. Our real estate expertise transforms opportunities into prosperity, ensuring your investments align with your long-term goals. The digital era has revolutionized the real estate market, and we're here to guide you through it. It's time to redefine your journey in the realm of real estate and embark on a path of success.</span></span></p>
+                <button onclick="myFunction()" id="myBtn" class="btn">Read Less</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h1>Latest <span>Projects</span></h1>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio_1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Development</h4>
+                    <p>Weaving digital magic, creating responsive websites that captivate, and converting digital visions into reality.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio_3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Architectural Drawings</h4>
+                    <p>Archicad and Autocad bring precision to electrical and mechanical architectural design, fusing function and aesthetics.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/real_estate.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Real Estate</h4>
+                    <p>Transforming properties into dreams, collaborating with real estate developers for innovative, client-focused solutions.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/school_act.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>School Projects(UNN).</h4>
+                    <p>Collaborative ventures with peers, where we tackle assignments, engineer sustainable structures, and embrace continuous learning.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio_2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Practices</h4>
+                    <p>In my coding sanctuary, I craft digital marvels, pushing the boundaries of innovation with lines of code.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/port_dev.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>School Management Site</h4>
+                    <p>Django-powered platform streamlines school operations, from attendance to grades, enhancing educational efficiency.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonial section design -->
+    
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable<span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/home_img.jpg" alt="">
+                        <h3>Nwarienne Jamaica</h3>
+                        <P>Anthony Ajuba a gift for turning dreams into architectural masterpieces. I couldn't be happier with the results. Their architectural drawings for my project not only met but exceeded my expectations. The attention to detail, artistic precision, and commitment to capturing my vision were truly commendable. Not to mention their exceptional time management, which made the entire process seamless. If you're looking for an architect who can transform your ideas into beautiful, functional spaces, [Your Name] is the one. They brought my dreams to life, and I'm grateful for the fantastic work they've done. - Nwarienne Jamaica. </P>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/dev_6.png" alt="">
+                        <h3>Prof. C. Ononiwu</h3>
+                        <P>It's Prof. C Ononiwu, and I'm here to express my admiration for Anthony's engineering services. I had the pleasure of collaborating with them, and it was nothing short of amazing. When it comes to deadlines, [Your Name] doesn't just meet them; they exceed all expectations with their extraordinary time management skills. Their ability to turn concepts into tangible solutions is simply unparalleled. The precision and technical brilliance they bring to the table ensure that every idea becomes a real-world reality. I'm deeply appreciative of their vital contributions to my projects, setting new standards in the field. Anthony Ajuba is the engineering partner you've been searching for.</P>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/dev_7.png" alt="">
+                        <h3>ANTHONY AJUBA</h3>
+                        <P>Anthony Ajuba a gift for turning dreams into architectural masterpieces. I couldn't be happier with the results. Their architectural drawings for my project not only met but exceeded my expectations. The attention to detail, artistic precision, and commitment to capturing my vision were truly commendable. Not to mention their exceptional time management, which made the entire process seamless. If you're looking for an architect who can transform your ideas into beautiful, functional spaces, [Your Name] is the one. They brought my dreams to life, and I'm grateful for the fantastic work they've done. - Nwarienne Jamaica.</P>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" name="" id="" placeholder="Fullname">
+                <input type="email" name="" id="" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" name="" id="" placeholder="Mobile Number">
+                <input type="text" name="" id="" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" name="" id="" class="btn" value="Send Message">
+        </form>
+    </section>
+
+    <!-- footer section design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; by Anthony | All Rights Reserved </p>
+            <div class="footer-iconTop">
+                <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="home.js"></script>   
+</body> 
+</html>
